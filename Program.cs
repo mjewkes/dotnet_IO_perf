@@ -56,7 +56,7 @@ namespace Scratch
 
             if (!File.Exists(dataPath))
             {
-                //CreateAGigOfData();
+                CreateAGigOfData();
             }
 
             long length = new System.IO.FileInfo(dataPath).Length;
